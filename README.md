@@ -111,10 +111,6 @@ Example:
 
 - **Not a tool — a convention:** Semantic IOUs is not a static analyzer or platform like SonarQube. It's a **developer-friendly convention**, embedded in your workflow, that works alongside tools like Sonar. While Sonar finds syntax or logic issues automatically, IOUs capture what only humans can see: architectural shortcuts, intentions, and areas for design improvement.
 
-- **IOU vs DEBT:** We use the term `IOU` instead of `DEBT` to emphasize a more human and constructive tone. It's not about guilt — it's about acknowledging areas for growth, with the intent to resolve them. An IOU is a promise, not a failure.
-
-- **AI collaboration:** Because Semantic IOUs are structured and semantically meaningful, they open the door for **AI-assisted refactoring and improvement suggestions**. Future tools (or even LLMs) can parse IOUs, interpret their context, and propose or generate targeted improvements automatically.
-
 - **Technical debt is inevitable** — but unmanaged debt is dangerous.
 - **Context matters** — marking debt while it's fresh is far better than trying to remember later.
 - **Better team communication** — IOUs create a shared, visible language for debt.
