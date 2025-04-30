@@ -98,7 +98,7 @@ Example:
 
 1. **Spot** an issue while coding.
 2. **Register** an IOU (quick or extended).
-3. **Keep coding** — don't lose momentum.
+3. **Keep coding** and don't lose momentum.
 4. **Review IOUs periodically** to prioritize and tackle improvements.
 5. **Refactor and close IOUs** as part of your continuous improvement process.
 
@@ -106,15 +106,8 @@ Example:
 ## Why It Matters
 
 - **IOU vs DEBT:** We use the term `IOU` instead of `DEBT` to emphasize a more human and constructive tone. It's not about guilt — it's about acknowledging areas for growth, with the intent to resolve them. An IOU is a promise, not a failure.
-
 - **AI collaboration:** Because Semantic IOUs are structured and semantically meaningful, they open the door for **AI-assisted refactoring and improvement suggestions**. Future tools (or even LLMs) can parse IOUs, interpret their context, and propose or generate targeted improvements automatically.
-
 - **Not a tool — a convention:** Semantic IOUs is not a static analyzer or platform like SonarQube. It's a **developer-friendly convention**, embedded in your workflow, that works alongside tools like Sonar. While Sonar finds syntax or logic issues automatically, IOUs capture what only humans can see: architectural shortcuts, intentions, and areas for design improvement.
-
-- **IOU vs DEBT:** We use the term `IOU` instead of `DEBT` to emphasize a more human and constructive tone. It's not about guilt — it's about acknowledging areas for growth, with the intent to resolve them. An IOU is a promise, not a failure.
-
-- **AI collaboration:** Because Semantic IOUs are structured and semantically meaningful, they open the door for **AI-assisted refactoring and improvement suggestions**. Future tools (or even LLMs) can parse IOUs, interpret their context, and propose or generate targeted improvements automatically.
-
 - **Technical debt is inevitable** — but unmanaged debt is dangerous.
 - **Context matters** — marking debt while it's fresh is far better than trying to remember later.
 - **Better team communication** — IOUs create a shared, visible language for debt.
@@ -131,7 +124,52 @@ Semantic IOUs help you be both **realistic** and **responsible**.
 - Debt aging tracking
 - Suggested prioritization algorithms
 - IDE snippet packs
+- Summary tables (like ESLint): IOUs listed with file + line number + type + description
 
+#### IOUs by File & Line
+
+```
+| Location                       | Type              | Description                              |
+|--------------------------------|-------------------|------------------------------------------|
+| src/components/LoginForm.js:14 | elephant          | This class is too large, should be split |
+| src/utils/validators.js:78     | error, high, high | Centralize repeated error handling       |
+| src/pages/Dashboard.tsx:33     | quicksand         | Tricky area - too many side effects      |
+```
+
+> Tables like this can be generated automatically by future scripts and embedded into CI dashboards or pull request reports.
+
+
+#### IOU Statistics & Health Rating
+
+```
+| Category      | Count |
+|---------------|-------|
+| structure     |     2 |
+| error         |     1 |
+
+| Impact        | Count |
+|---------------|-------|
+| high          |     2 |
+| critical      |     1 |
+
+| Urgency       | Count |
+|---------------|-------|
+| high          |     3 |
+```
+
+> These stats are derived from the sample above. A real scan would show a complete project breakdown.
+
+##### Technical Debt Health (Sample)
+
+```
+🔴 Status: High-Risk
+
+- 3 IOUs with high or critical impact
+- All IOUs marked as high urgency
+- Concentrated in structure and error categories
+
+⚠️ Consider prioritizing these areas in the next sprint to reduce risk and improve maintainability.
+```
 
 ## License
 
