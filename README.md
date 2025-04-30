@@ -1,8 +1,7 @@
 # Semantic IOUs
 
-> A lightweight, human-centered way to track and manage technical debt — without breaking your flow.
+A lightweight, human-centered way to track and manage technical debt — without breaking your flow.
 
----
 
 ## Why Semantic IOUs?
 
@@ -16,7 +15,6 @@ Tight deadlines, shifting priorities, and unexpected problems often leave us wit
 
 This is a **proposal** in its early stage (**v0.0.1**) and is open to contribution. Ideas are welcome to expand keywords, refine categories, and build tools around this shared need.
 
----
 
 ## What is a Semantic IOU?
 
@@ -28,7 +26,6 @@ A **Semantic IOU** is a lightweight annotation directly in your code, marking an
 
 You don't have to stop and fix everything right now. But you won't lose sight of it either.
 
----
 
 ## Two Ways to Register an IOU
 
@@ -63,7 +60,7 @@ These mappings allow for later analysis, prioritization, or transformation into 
 
 > Contributions are welcome to expand this keyword list in the future.
 
----
+
 
 ### 2. Extended Notation (Detailed)
 
@@ -96,7 +93,6 @@ Example:
 
 > Detailed annotations allow teams to prioritize debt resolution across modules and releases.
 
----
 
 ## Workflow Summary
 
@@ -106,7 +102,6 @@ Example:
 4. **Review IOUs periodically** to prioritize and tackle improvements.
 5. **Refactor and close IOUs** as part of your continuous improvement process.
 
----
 
 ## Why It Matters
 
@@ -127,7 +122,6 @@ Example:
 
 Semantic IOUs help you be both **realistic** and **responsible**.
 
----
 
 ## Future Ideas
 
@@ -138,21 +132,17 @@ Semantic IOUs help you be both **realistic** and **responsible**.
 - Suggested prioritization algorithms
 - IDE snippet packs
 
----
 
 ## License
 
 MIT License.
 
----
 
 ## Author & Contributions
 
 Semantic IOUs was conceptualized as a pragmatic bridge between software design ideals and real-world delivery needs.
 
 This is an open and evolving project. **Feel free to fork, suggest improvements, open issues, or submit PRs.**
-
----
 
 > "First make it work. Then make it right. Then make it fast." — Classic engineering wisdom
 
